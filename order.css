@@ -1,0 +1,25 @@
+input[type='checkbox'] {
+    scale: 3;
+    width: 50px;
+}
+label.checkbox-order {
+    color: black;
+    scale: 2;
+    font-family: "Berlin Sans FB";
+}
+.menu-container {
+    display: grid;
+    padding: 10px;
+    grid-template-columns: auto auto auto auto;
+}
+.grid-item {
+    padding: 20px;
+    text-align: center;
+}
+
+.menu-picture {
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    border: black solid 5px;
+}
